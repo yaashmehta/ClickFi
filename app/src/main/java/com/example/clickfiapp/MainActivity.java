@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
 
         if(ParseUser.getCurrentUser()!=null) {
+            //ParseUser.getCurrentUser().logOut();
             transactionToSocialMediaActivity();
         }
 
